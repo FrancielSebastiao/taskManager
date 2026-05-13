@@ -1,4 +1,4 @@
--- ── Core table ─────────────────────────────────────────────
+-- V13__create_events_table.sql
 
 CREATE TABLE events (
     id             CHAR(36)     NOT NULL,
