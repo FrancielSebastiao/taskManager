@@ -144,6 +144,10 @@
                             <artifactId>lombok</artifactId>
                         </exclude>
                     </excludes>
+					<!-- ADD THIS -->
+					<arguments>
+						<argument>--spring.profiles.active=${spring.profiles.active}</argument>
+					</arguments>
                 </configuration>
             </plugin>
             <plugin>
